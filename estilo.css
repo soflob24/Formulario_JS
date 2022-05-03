@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:rgb(255, 233, 237);
+    box-sizing: border-box;
+}
+
+#formulario{
+    margin: 0 auto;
+    border: 1px solid white;
+    width: 560px;
+    display: block;
+    padding: 30px;
+    background-color: white;
+    border-radius: 4px;
+    margin-top: 20px;
+    margin-block-end: 20px;
+}
+
+#formulario label {
+    margin-left: 80px;
+}
+
+#btn-enter{
+    display:flex;
+    justify-content:center;
+    width: 70%;
+    padding: 12px;
+    border-radius: 10px;
+    background-color:pink;
+    cursor: pointer;
+    margin: 16px auto;
+    font-size: 16px;  
+}
+
+.controls{
+    display:flex;
+    justify-content:center;
+    width: 70%;
+    border: solid 1px;
+    padding: 5px;
+    margin: auto;
+    border-radius: 4px;
+    margin-top: 5px;
+    outline: none;
+
+}
+
+h1{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.error {
+    margin: auto;
+    margin-top: 10px;
+    width: 210px;
+    text-align: center;
+    color: black;
+}
+
+.alerta-nombre{
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    display: block;
+    margin-top:3px;
+    margin-bottom: 15px;
+    margin-left: 78px;
+}
+
+.alerta-edad{
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    display: block;
+    margin-top:3px;
+    margin-bottom: 15px;
+    margin-left: 78px;
+}
+
+.alerta-telefono{
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    display: block;
+    margin-top:3px;
+    margin-bottom: 15px;
+    margin-left: 78px;
+}
+
+.alerta-email {
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    display: block;
+    margin-top:3px;
+    margin-bottom: 15px;
+    margin-left: 78px;
+}
+
+.alerta-contraseña {
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    display: block;
+    margin-top:3px;
+    margin-bottom: 15px;
+    margin-left: 78px;
+}
+
+.tabla{
+    border-spacing: 20px;
+    border: solid 1px;
+    margin: 30px auto;
+}
+
+.btn{
+    width:100%;
+    padding: 6px;
+    cursor: pointer;
+}

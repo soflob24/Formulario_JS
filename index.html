@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <form method="post" id="formulario">
+
+        <h1>Registrate</h1>
+    
+        <label for="name">Nombre completo</label><br>
+        <input class="controls" type="text" name="name" id="name" autocomplete="invalid"><br>
+        <span class="alerta-nombre"></span>
+    
+        <label for="edad">Edad</label><br>
+        <input class="controls" type="number" name="edad" id="edad" autocomplete="invalid"><br>
+        <span class="alerta-edad"></span>
+
+        <label for="telefono">Teléfono</label><br>
+        <input class="controls" type="number" name="telefono" id="telefono" autocomplete="invalid"><br>
+        <span class="alerta-telefono"></span>
+
+        <label for="Correo">Correo electrónico</label><br>
+        <input class="controls" type="email" name="correo" id="correo" autocomplete="invalid"><br>
+        <span class="alerta-email"></span>
+    
+        <label for="contraseña">Contraseña</label><br>
+        <input class="controls" type="password" name="contraseña" id="contraseña"><br>
+        <span class="alerta-contraseña"></span>
+            
+        <button type="submit" id="btn-enter">ENVIAR</button>
+        <table class="tabla">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Edad</th>
+                    <th>Teléfono</th>
+                    <th>Correo</th>
+                    <th>Eliminar</th>
+                </tr>
+            </thead>
+            <tbody id="tabla">
+                <tr>
+
+                </tr>
+            </tbody>
+        </table>
+    
+    </form>
+    <script src='app.js'></script>
+</body>
+</html>
